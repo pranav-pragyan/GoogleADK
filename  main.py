@@ -1,7 +1,7 @@
 from google.adk.runners import Runner
 from google.genai import types
 
-from agents.html_agent import html_agent
+from single_agent.agents.html_agent import html_agent
 
 
 runner = Runner(agent=html_agent)
