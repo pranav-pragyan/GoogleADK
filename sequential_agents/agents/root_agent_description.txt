@@ -1,0 +1,19 @@
+A sequential multi-agent AI system for intelligent website creation.
+
+    Workflow:
+    1. information_gathering_agent
+       - analyzes user requests
+       - determines whether the request is website-related
+       - refines and structures requirements
+
+    2. website_prompt_engineer_agent
+       - converts refined requirements into a detailed
+         production-quality website specification
+
+    3. website_generation_agent
+       - generates complete responsive HTML frontend code
+       - saves the generated website using the save_html tool
+
+    This agent pipeline is designed for automated modern
+    frontend website generation with clean orchestration,
+    structured state passing, and production-quality UI generation.
